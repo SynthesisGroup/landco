@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/default.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
 <body>
@@ -47,31 +46,14 @@
                     <!-- .menu-items -->
                     <div class="menu-items">
                         <ul>
-                            <li><a href="index.html" class="active">Home</a></li>
-							<li>
-                                <a href="#">About</a>
-                                <ul class="submenu">
-									<li><a href="about.html">The Company</a></li>
-                                    <li><a href="management.html">The Management</a></li>
-                                    <li><a href="vision.html">Our Vision of Leisure</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
-                                </ul>
-                            </li>
+                            <li class="active"><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about-us.html">About</a></li>
 							<li><a href="projects.html">Projects</a></li>
 							<li><a href="privilege-card.html">Privilege Card</a></li>
-							<li>
-                                <a href="#">Publications</a>
-                                <ul class="submenu">
-									<li><a href="blog.html">Blog</a></li>
-                                    <li><a href="media.html">Media</a></li>
-                                    <li><a href="news.html">Latest News</a></li>
-                                    <li><a href="magazine.html">Landco Magazine</a></li>
-									<li><a href="construction.html">Construction Updates</a></li>
-                                </ul>
-                            </li>
+							<li><a href="publications.html">Publications</a></li>
 							<li><a href="faq.html">FAQ</a></li>
 							<li><a href="sellers.html">Sellers</a></li>
-							<li><a href="https://pay.aqwire.io/landco" target="_blank">Reservations</a></li>
+							<li><a href="reservations.html">Reservations</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -88,6 +70,62 @@
         </div>
     </header>
     <!-- /header -->
+	
+    <!-- .offcanvas-wrapper -->
+    <div class="offcanvas-wrapper">
+        <div class="offcanvas-overly"></div>
+        <div class="offcanvas-widget">
+            <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+			
+            <!-- .search-widget -->
+            <div class="widget search-widget">
+                <h5 class="widget-title">Search room</h5>
+                <form action="#">
+                    <input type="text" placeholder="Search your keyword...">
+                    <button type="submit"><i class="far fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- .about-widget -->
+            <div class="widget about-widget">
+                <h5 class="widget-title">About us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis illo ipsa asperiores, perspiciatis corrupti veritatis assumenda architecto commodi provident quas necessitatibus consequatur praesentium magnam optio deserunt fugiat repellat culpa.</p>
+            </div>
+			
+            <!-- .nav-widget -->
+            <div class="widget nav-widget">
+                <h5 class="widget-title">Our pages</h5>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Food Menu</a></li>
+                    <li><a href="restaurant.html">Restaurant</a></li>
+                    <li>
+                        <a href="places.html">Places</a>
+                        <ul class="submenu">
+                            <li><a href="places-details.html">Places Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="gallery.html">Our Gallery</a></li>
+                    <li><a href="search-result.html">Search Result</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </div>
+			
+            <!-- .social-link -->
+            <div class="widget social-link">
+                <h5 class="widget-title">Contact with us</h5>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/.offcanvas-wrapper -->
 	
     <!-- .banner-area -->
     <section class="banner-area banner-style-two" id="bannerSlider">
@@ -112,7 +150,7 @@
             </div>
 			
             <!-- .banner-bg -->
-            <div class="banner-bg" style="background-image: url(assets/img/slides/slide-1.jpg);"></div>
+            <div class="banner-bg" style="background-image: url(assets/img/banner/04.jpg);"></div>
             <div class="banner-overly"></div>
         </div>
     </section>
@@ -164,18 +202,18 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-10 wow fadeInLeft" data-wow-delay=".3s">
-                    <div class="row about-features-boxes">
+                    <div class="row about-features-boxes fetaure-masonary">
                         <div class="col-sm-6">
-							<img src="assets/img/introduction/introduction-1.jpg" alt="Image" />
+                            <div class="single-feature-box only-bg" style="background-image: url(assets/img/feature/04.jpg);"></div>
                         </div>
                         <div class="col-sm-6">
-							<img src="assets/img/introduction/introduction-2.jpg" class="mt-30" alt="Image" />
+                            <div class="single-feature-box only-bg mt-30" style="background-image: url(assets/img/feature/06.jpg);"></div>
                         </div>
-						<div class="col-sm-6">
-							<img src="assets/img/introduction/introduction-3.jpg" alt="Image" />
+                        <div class="col-sm-6">
+                            <div class="single-feature-box only-bg mt-30" style="background-image: url(assets/img/feature/05.jpg);"></div>
                         </div>
-						<div class="col-sm-6">
-							<img src="assets/img/introduction/introduction-4.jpg" class="mt-30" alt="Image" />
+                        <div class="col-sm-6">
+                            <div class="single-feature-box only-bg mt-30" style="background-image: url(assets/img/feature/07.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -197,7 +235,7 @@
         </div>
         <div class="about-right-bottom">
             <div class="about-bottom-img">
-                <img src="assets/img/backgrounds/3.jpg" alt="">
+                <img src="assets/img/bg/03.jpg" alt="">
             </div>
         </div>
     </section>
@@ -215,7 +253,10 @@
 					</div>
 				</div>
 				<div class="floating-cloud cloud-1"><img src="assets/img/img-cloud-1.png" alt="" /></div>
+				<!--div class="floating-cloud cloud-2"><img src="assets/img/img-cloud-1.png" alt="" /></div-->
+				<!--div class="floating-cloud cloud-3"><img src="assets/img/img-cloud-2.png" alt="" /></div-->
 				<div class="floating-cloud cloud-4"><img src="assets/img/img-cloud-2.png" alt="" /></div>
+				<!--div class="floating-cloud cloud-5"><img src="assets/img/img-cloud-1.png" alt="" /></div-->
 				<div class="floating-cloud cloud-6"><img src="assets/img/img-cloud-2.png" alt="" /></div>
 				
                 <div class="col-md-10">
@@ -255,7 +296,7 @@
 				<div class="col-lg-4">
                     <div class="room-box">
                         <div class="room-img-wrap">
-                            <div class="room-img" style="background-image: url(assets/img/projects/legacy-project-2.jpg);"></div>
+                            <div class="room-img" style="background-image: url(assets/img/highlights/02.jpg);"></div>
                         </div>
                         <div class="room-desc">
                             <h2 class="title mb-4"><a href="#">Parks</a></h2>
@@ -267,7 +308,7 @@
 				 <div class="col-lg-4">
                     <div class="room-box">
                         <div class="room-img-wrap">
-                            <div class="room-img" style="background-image: url(assets/img/projects/legacy-project-3.jpg);"></div>
+                            <div class="room-img" style="background-image: url(assets/img/highlights/03.jpg);"></div>
                         </div>
                         <div class="room-desc">
                             <h2 class="title mb-4"><a href="#">Peaks</a></h2>
@@ -279,7 +320,7 @@
                 <div class="col-lg-4">
                     <div class="room-box">
                         <div class="room-img-wrap">
-                            <div class="room-img" style="background-image: url(assets/img/projects/legacy-project-1.jpg);"></div>
+                            <div class="room-img" style="background-image: url(assets/img/highlights/01.jpg);"></div>
                         </div>
                         <div class="room-desc">
                             <h2 class="title mb-4"><a href="#">Shores</a></h2>
@@ -293,19 +334,19 @@
 		<div class="container-fluid p-0">
 			<div class="row rooms-slider-one">
 				<div class="col">
-					<div class="slider-img" style="background-image: url(assets/img/projects/project-1.jpg);"></div>
+					<div class="slider-img" style="background-image: url(assets/img/room-slider/01.jpg);"></div>
 				</div>
 				<div class="col">
-					<div class="slider-img" style="background-image: url(assets/img/projects/project-2.jpg);"></div>
+					<div class="slider-img" style="background-image: url(assets/img/room-slider/02.jpg);"></div>
 				</div>
 				<div class="col">
-					<div class="slider-img" style="background-image: url(assets/img/projects/project-3.jpg);"></div>
+					<div class="slider-img" style="background-image: url(assets/img/room-slider/03.jpg);"></div>
 				</div>
 				<div class="col">
-					<div class="slider-img" style="background-image: url(assets/img/projects/project-4.jpg);"></div>
+					<div class="slider-img" style="background-image: url(assets/img/room-slider/04.jpg);"></div>
 				</div>
 				<div class="col">
-					<div class="slider-img" style="background-image: url(assets/img/projects/project-5.jpg);"></div>
+					<div class="slider-img" style="background-image: url(assets/img/room-slider/05.jpg);"></div>
 				</div>
 			</div>
 		</div>
@@ -370,7 +411,7 @@
             <div class="row latest-post-slider mt-80">
                 <div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-1.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/01.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="beach-landscape-photography.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -383,7 +424,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-2.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/02.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="weekends-in-laiya.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -396,7 +437,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-3.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/03.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="biggest-trends-to-hit-summer-2016-shot-on-location-at-punta-fuego-yacht-club.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -409,7 +450,7 @@
                 </div>
 				<div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-1.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/01.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="beach-landscape-photography.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -422,7 +463,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-2.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/02.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="weekends-in-laiya.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -435,7 +476,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="latest-post-box">
-                        <div class="post-img" style="background-image: url(assets/img/posts/post-3.jpg);"></div>
+                        <div class="post-img" style="background-image: url(assets/img/latest-post/03.jpg);"></div>
                         <div class="post-desc">
                             <ul class="post-meta">
                                 <li><a href="biggest-trends-to-hit-summer-2016-shot-on-location-at-punta-fuego-yacht-club.html"><i class="fal fa-calendar-alt"></i>23rd March 2019</a></li>
@@ -452,7 +493,7 @@
     <!-- /.latest-news -->
 	
 	<!-- .counter-section -->
-	<section class="room-gallery-cta counter-section" style="background-image: url(assets/img/statistics/bg.jpg);">
+	<section class="room-gallery-cta counter-section" style="background-image: url(assets/img/room-cta-gallery/bg.jpg);">
 		<div class="container">
 			<div class="row text-center">
                 <div class="col-lg-3 col-md-6 col-6">
@@ -482,8 +523,8 @@
             </div>
 		</div>
 		<div class="rotate-images">
-			<img src="assets/img/statistics/1.jpg" class="rotate-image-one" alt="Image">
-			<img src="assets/img/statistics/3.jpg" class="rotate-image-three" alt="Image">
+			<img src="assets/img/room-cta-gallery/01.jpg" class="rotate-image-one" alt="Image">
+			<img src="assets/img/room-cta-gallery/03.jpg" class="rotate-image-three" alt="Image">
 		</div>
 	</section>
 	<!-- /.counter-section -->
@@ -499,7 +540,7 @@
         <div class="footer-widget-area pt-100 pb-50">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 order-1 ">
+                    <div class="col-lg-3 col-sm-6 order-1">
                         <!-- Site Info Widget -->
                         <div class="widget site-info-widget mb-50">
                             <div class="footer-logo mb-50">
@@ -516,18 +557,18 @@
                     <div class="col-lg-6 order-3 order-lg-2">
                         <!-- Nav Widget -->
                         <div class="row widget nav-widget mb-50">
-                            <div class="col-lg-6 mb-5">
-                                <h4 class="widget-title">About Us</h4>
+                            <div class="col-lg-6">
+                                <h4 class="widget-title">About Us.</h4>
                                 <ul>
-                                    <li><a href="about.html">The Company</a></li>
+                                    <li><a href="about-us.html">The Company</a></li>
                                     <li><a href="management.html">The Management</a></li>
                                     <li><a href="vision.html">Our Vision of Leisure</a></li>
                                     <li><a href="privilege-card.html">Privilage Club</a></li>
                                     <li><a href="careers.html">Careers</a></li>
                                 </ul>
                             </div>
-							<div class="col-lg-6 mb-5">
-                                <h4 class="widget-title">Publications</h4>
+							<div class="col-lg-6">
+                                <h4 class="widget-title">Publications.</h4>
                                 <ul>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="media.html">Media</a></li>
@@ -541,7 +582,7 @@
                     <div class="col-lg-3 col-sm-6 order-2 order-lg-3">
                         <!-- Contact Widget -->
                         <div class="widget contact-widget mb-50">
-                            <h4 class="widget-title">Contact Us</h4>
+                            <h4 class="widget-title">Contact Us.</h4>
                             <div class="contact-lists">
                                 <div class="contact-box">
                                     <div class="icon">
@@ -603,10 +644,15 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.inview.min.js"></script>
     <script src="assets/js/jquery.countTo.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
     <script src="assets/js/wow.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="assets/js/map.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
