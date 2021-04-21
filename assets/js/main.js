@@ -387,7 +387,7 @@ var mirandaDoc;
 		instaFeedSlider() {
 			var tslider = $('.instagram-slider');
 			tslider.slick({
-				slidesToShow: 6,
+				slidesToShow: 4,
 				slidesToScroll: 1,
 				fade: false,
 				infinite: true,
