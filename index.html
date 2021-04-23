@@ -89,37 +89,6 @@
     </header>
     <!-- /header -->
 	
-	<style>
-		#slider.fade { background-color: #000000; opacity: 1; }
-		#slider.fade .carousel-item { left: 0; top: 0; position: absolute; display: block; padding: 150px 0 200px; }
-		#slider.fade .carousel-item { opacity: 0; transition-duration: .6s; transition-property: opacity; height: 100vh; }
-		#slider.fade .carousel-item { animation: zoomBg forwards 20s ease-in; animation-iteration-count: infinite; }
-		#slider.fade .carousel-item { background-position: center; width: 100%; }
-		#slider.fade .carousel-item .row { height: 100%; position: relative; z-index: 1; }
-		#slider.fade .carousel-item:after { position: absolute; content: ""; height: 100%; width: 100%; top: 0; left: 0; }
-		#slider.fade .carousel-item:after { background-color: rgba(0, 0, 0, 0.5); }		
-		#slider.fade .carousel-item:first-child { top: auto; opacity: 1;  position: relative; }
-
-		#slider.fade .carousel-item.active,
-		#slider.fade .carousel-item-next.carousel-item-left,
-		#slider.fade .carousel-item-prev.carousel-item-right { opacity: 1; }
-
-		#slider.fade .active.carousel-item-left,
-		#slider.fade .active.carousel-item-right { opacity: 0; }
-
-		#slider.fade .carousel-item-next,
-		#slider.fade .carousel-item-prev,
-		#slider.fade .carousel-item.active,
-		#slider.fade .active.carousel-item-left,
-		#slider.fade .active.carousel-item-prev { transform: translateX(0); transform: translate3d(0, 0, 0); }
-		
-		@keyframes zoomBg {
-			0%    { background-size: 100%; }
-			50%   { background-size: 125%; }
-			100%  { background-size: 100%; }
-		}
-	</style>
-	
 	<!-- -->
 	<section class="banner-area banner-style-two carousel slide fade" id="slider" data-ride="carousel">
 		<div class="carousel-inner">
@@ -338,7 +307,49 @@
                     </div>
                 </div>   
             </div>
-        </div>
+        </div>	
+	</section>
+	<!-- /.room-slider -->
+	
+	<!-- .counter-section -->
+	<section class="room-gallery-cta counter-section" style="background-image: url(assets/img/statistics/bg.jpg);">
+		<div class="container">
+			<div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="counter-box">
+                        <h4><span class="counter">1990</span></h4>
+                        <span class="title">Year Founded</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="counter-box">
+                        <h4><span class="counter">29</span></h4>
+                        <span class="title">Years in Business</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="counter-box">
+                        <h4><span class="counter">17</span></h4>
+                        <span class="title">Projects Developed</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="counter-box">
+                        <h4><span class="counter">12177</span></h4>
+                        <span class="title">Lots Sold</span>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div class="rotate-images">
+			<img src="assets/img/statistics/1.jpg" class="rotate-image-one" alt="Image">
+			<img src="assets/img/statistics/3.jpg" class="rotate-image-three" alt="Image">
+		</div>
+	</section>
+	<!-- /.counter-section -->
+	
+	<!-- .room-slider -->
+	<section class="room-slider pt-150">
 		<div class="container-fluid p-0">
 			<div class="row rooms-slider-one">
 				<div class="col">
@@ -499,43 +510,6 @@
         </div>
     </section>
     <!-- /.latest-news -->
-	
-	<!-- .counter-section -->
-	<section class="room-gallery-cta counter-section" style="background-image: url(assets/img/statistics/bg.jpg);">
-		<div class="container">
-			<div class="row text-center">
-                <div class="col-lg-3 col-md-6 col-6">
-                    <div class="counter-box">
-                        <h4><span class="counter">1990</span></h4>
-                        <span class="title">Year Founded</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6">
-                    <div class="counter-box">
-                        <h4><span class="counter">29</span></h4>
-                        <span class="title">Years in Business</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6">
-                    <div class="counter-box">
-                        <h4><span class="counter">17</span></h4>
-                        <span class="title">Projects Developed</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6">
-                    <div class="counter-box">
-                        <h4><span class="counter">12177</span></h4>
-                        <span class="title">Lots Sold</span>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<div class="rotate-images">
-			<img src="assets/img/statistics/1.jpg" class="rotate-image-one" alt="Image">
-			<img src="assets/img/statistics/3.jpg" class="rotate-image-three" alt="Image">
-		</div>
-	</section>
-	<!-- /.counter-section -->
 	
     <!-- .back-to-top -->
     <a href="#" class="back-to-top" id="backToTop">
