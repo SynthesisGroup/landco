@@ -8301,7 +8301,7 @@ footer .footer-widget-area::after { background-position: top center; }
 
 /* Amenities */
 ul.list-icon { position:  relative;}
-ul.list-icon li { padding-left: 30px; color:#fff; }
+ul.list-icon li { padding-left: 30px; color: #FFFFFF; position: relative; }
 ul.list-icon li::before { position: absolute; left: 0; top: 10px; transform: translateY(-50%); }
 ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; font-weight: 300; }
 
@@ -8328,6 +8328,11 @@ ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; f
 .cta-section.quick-facts .cta-inner .cta-features .single-feature .icon { font-size: 40px; height:0; }
 .cta-section.quick-facts .cta-inner .cta-features .single-feature .cta-desc { padding-left: 0; }
 
+/* Gallery */
+.section-gallery .single-content h3 { display: none; }
+.section-gallery .single-content img { max-height: 100px; }
+.section-gallery .single-content a:hover { color: #FFFFFF; }
+
 /* Slider */
 #slider.fade { background-color: #000000; opacity: 1; }
 #slider.fade .carousel-item { left: 0; top: 0; position: absolute; display: block; padding: 150px 0 200px; }
@@ -8353,6 +8358,11 @@ ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; f
 #slider.fade .carousel-item.active,
 #slider.fade .active.carousel-item-left,
 #slider.fade .active.carousel-item-prev { transform: translateX(0); transform: translate3d(0, 0, 0); }
+
+/* Quick Facts */
+.quick-facts .cta-inner .cta-features .single-feature { grid-template-columns: 60px 1fr; }
+.quick-facts .cta-inner .cta-features .single-feature .icon { width: 60px; }
+.quick-facts .cta-inner .cta-features .single-feature .icon svg { height: 32px; width: 32px; display: block; }
 
 /* Keyframes */
 @keyframes zoomBg {
