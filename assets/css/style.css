@@ -8335,12 +8335,13 @@ ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; f
 
 /* Slider */
 #slider.fade { background-color: #000000; opacity: 1; }
-#slider.fade .carousel-item { left: 0; top: 0; position: absolute; display: block; padding: 250px 0 200px; }
+#slider.fade .carousel-item { left: 0; top: 0; position: absolute; display: block; padding: 150px 0 100px; }
 #slider.fade .carousel-item { opacity: 0; transition-duration: .6s; transition-property: opacity; height: 100vh; }
 #slider.fade .carousel-item { animation: zoomBg forwards 20s ease-in; animation-iteration-count: infinite; }
 #slider.fade .carousel-item { background-position: center; width: 100%; }
 #slider.fade .carousel-item .row { height: 100%; position: relative; z-index: 1; }
 #slider.fade .carousel-item .banner-content { opacity: 0; transition-duration: .6s; transition-property: opacity; }
+#slider.fade .carousel-item .banner-logo { max-width: 480px; }
 #slider.fade .carousel-item:after { position: absolute; content: ""; height: 100%; width: 100%; top: 0; left: 0; }
 #slider.fade .carousel-item:after { background-color: rgba(0, 0, 0, 0.5); }		
 #slider.fade .carousel-item:first-child { top: auto; opacity: 1;  position: relative; }
