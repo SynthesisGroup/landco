@@ -8300,10 +8300,15 @@ footer .footer-widget-area::after { background-position: top center; }
 .room-bg:after { background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%); }
 
 /* Amenities */
-ul.list-icon { position:  relative;}
+ul.list-icon { position:  relative; }
 ul.list-icon li { padding-left: 30px; color: #FFFFFF; position: relative; }
 ul.list-icon li::before { position: absolute; left: 0; top: 10px; transform: translateY(-50%); }
 ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; font-weight: 300; }
+
+ul.list-check { position:  relative; margin-left: 0 !important; }
+ul.list-check li { padding-left: 30px; position: relative; }
+ul.list-check li::before { position: absolute; left: 0; top: 12px; transform: translateY(-50%); }
+ul.list-check li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; font-weight: 300; }
 
 .news-details-box .entry-content ul.list-icon li::before { left: 0; top: 20%; }
 .news-details-box .entry-content ul.list-icon li { padding-left: 30px; color:#333 !important; }
@@ -8374,6 +8379,24 @@ ul.list-icon li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; f
 .section-construction .row { background-image: url(../img/icon/pattern-03.png); }
 .section-construction .block-text { padding: 50px; padding-left: 0; }
 .section-construction img { position: relative; left: -50px; }
+
+/* Publications */
+.section-publications { background-color: #F8F8F8; }
+.section-publications:before { display: none; }
+.section-publications #tab_publications_content a { color: #222222; }
+.section-publications .card { border: 0; margin-bottom: 20px; }
+.section-publications .card-body { border-radius: 0; }
+.section-publications .card-body i { margin-right: 10px; }
+.section-publications .card-img-top { overflow: hidden; }
+.section-publications .card-img-top img { transition: ease all 0.3s; }
+.section-publications .card-img-top:hover img { transform: scale(1.1); }
+
+.section-publications .grid-item { width: 33.33%; float: left; }
+.section-publications .grid-item .card { border: 0; margin: 10px; }
+.section-publications .button-group { text-align: center; }
+.section-publications .button-group button { background-color: transparent; padding: 20px 30px; border: 1px solid #DDDDDD; }
+.section-publications .button-group button { margin: 0 5px; transition: ease 0.3s all; }
+.section-publications .button-group button.is-checked { background-color: #222222; color: #FFFFFF; }
 
 /* Keyframes */
 @keyframes zoomBg {
