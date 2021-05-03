@@ -8189,6 +8189,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'OSTD'; }
 .booking-form { margin-top: 0; } 
 .testimonial-box { padding: 30px; margin-bottom: 30px; }
 .inquire-box { margin-bottom: 30px; }
+.fc-white { color: #FFFFFF; }
 
 h2 { font-size: 56px !important; line-height: 64px !important; margin: 0 0 30px; }
 h3 { font-size: 48px; line-height: 56px; margin: 0 0 30px; }

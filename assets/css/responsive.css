@@ -60,7 +60,7 @@
 	.section.latest-news { padding-top: 100px; padding-bottom: 100px; }
 	.section-gallery { padding-top: 100px; }
 	.footer-widget-area { padding-top: 100px; }
-	.breadcrumb-area { margin-top: 80px; }
+	.breadcrumb-area { /*margin-top: 80px;*/ }
 	
 	.section-construction .row { margin-left: 50px; }
 	.section-construction .block-text { padding: 50px; padding-left: 0; }
