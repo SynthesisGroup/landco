@@ -8193,6 +8193,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'OSTD'; }
 .bg-blue { background-color: #3534b1; }
 .text-block.with-pattern .pattern-wrap { background: #222222; }
 
+.preloader { background-color: #3534b1; }
+.preloader .cssload-container { width: 160px; }
+
 /* Breadcrumb Area */
 .breadcrumb-area { padding-top: 140px; }
 .breadcrumb-area .breadcrumb-text { padding: 75px 0; }
