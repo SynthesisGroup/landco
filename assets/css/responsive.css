@@ -41,6 +41,12 @@
 	.section-amenities .pattern-wrap { display: none; }
 	.section-amenities .block-text { padding: 50px 0; }
 	.section-gallery { padding-top: 0; }
+	
+	.section-map.for-mobile .icon-map-marker.marker-1 { left: 52%; top: 42%; }
+	.section-map.for-mobile .icon-map-marker.marker-2 { left: 36%; top: 17%; }
+	.section-map.for-mobile .icon-map-marker.marker-3 { left: 70%; top: 62%; }
+	
+	.card-career .card-title { display: block; }
 }
 
 /* 480  */
@@ -56,15 +62,15 @@
 	.for-mobile { display: none; }
 	.for-screen { display: block; }
 	
-	h2 { font-size: 56px !important; line-height: 64px !important; margin: 0 0 30px; }
-	h3 { font-size: 48px; line-height: 56px; margin: 0 0 30px; }
+	h2 { font-size: 48px !important; line-height: 56px !important; margin: 0 0 30px; }
+	h3 { font-size: 40px; line-height: 48px; margin: 0 0 30px; }
 	h4 { font-size: 32px; line-height: 40px; }
 	h5 { font-size: 24px; line-height: 32px; }
 	p  { font-size: 16px; line-height: 24px; }
 	
 	header.header-absolute { top: 35px; }
 	
-	.carousel.fade .carousel-item .banner-logo { max-width: 400px; }
+	.carousel.fade .carousel-item .banner-logo { max-width: 360px; }
 	
 	.pt-115 { padding-top: 115px; }
 	.pb-115 { padding-bottom: 115px; }
@@ -93,6 +99,8 @@
 	.section-amenities { padding-top: 0; }
 	.section-amenities .pattern-wrap { display: block; }
 	.section-gallery { padding-top: 0; }
+	
+	.card-career .card-title { display: flex; }
 }
 
 /* 960 */
