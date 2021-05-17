@@ -10,6 +10,7 @@
 	p  { font-size: 14px; line-height: 22px; }
 	
 	header.header-absolute { top: 0; }
+	header .nav-container .navbar-toggler { margin-right: 15px; }
 	
 	.carousel.fade .carousel-item .banner-logo { max-width: 320px; }
 	
@@ -69,6 +70,7 @@
 	p  { font-size: 16px; line-height: 24px; }
 	
 	header.header-absolute { top: 35px; }
+	header .nav-container .navbar-toggler { margin-right: 0; }
 	
 	.carousel.fade .carousel-item .banner-logo { max-width: 360px; }
 	
