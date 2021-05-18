@@ -8484,6 +8484,9 @@ ul.list-check li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; 
 .section-publications .button-group button { margin: 0 5px 15px; transition: ease 0.3s all; }
 .section-publications .button-group button.is-checked { background-color: #222222; color: #FFFFFF; }
 
+.input-dropdown .nice-select { height: 70px; background-color: #f8f8f8; font-size: 16px; padding: 0 40px; padding-left: 80px; }
+.input-dropdown .nice-select::before { left: 40px; }
+
 /* Keyframes */
 @keyframes zoomBg {
 	0%    { background-size: 125%; }
