@@ -71,7 +71,7 @@
 	header.header-absolute { top: 35px; }
 	header .nav-container .navbar-toggler { margin-right: 0; }
 	
-	.carousel.fade .carousel-item .banner-logo { max-width: 360px; }
+	.carousel.fade .carousel-item .banner-logo { max-width: 560px; }
 	
 	.pt-115 { padding-top: 115px; }
 	.pb-115 { padding-bottom: 115px; }
