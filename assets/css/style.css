@@ -8309,18 +8309,24 @@ footer .copyright-text { margin-bottom: 0; }
 .section-map .card-body p { color: #FFFFFF; line-height: 1.8em; }
 
 .section-map .icon-map-marker { position: absolute; display: block; width: 24px; height: 24px; z-index: 2; }
-.section-map .icon-map-marker svg { fill: black; transition: 0.3s all ease; }
+.section-map .icon-map-marker svg { fill: black; transition: 0.3s all ease; opacity: 0.5; }
 .section-map .icon-map-marker:after { position: absolute; height: 10px; width: 80%; border-radius: 50%; z-index: -1;  bottom: -10px; }
-.section-map .icon-map-marker:after { background: rgba(0, 0, 0, 0.3); content: "";left: 50%; transform: translate(-50%, 100%); }
+.section-map .icon-map-marker:after { background: rgba(0, 0, 0, 0.3); content: "";left: 50%; transform: translate(-50%, 100%); display: none; }
 
-.section-map .icon-map-marker.marker-1 { left: 40%; top: 29%; }
-.section-map .icon-map-marker.marker-2 { left: 43%; top: 30%; }
-.section-map .icon-map-marker.marker-3 { left: 84%; top: 67%; }
+.section-map .icon-map-marker.marker-1 { left: 39.5%; top: 30%; }
+.section-map .icon-map-marker.marker-2 { left: 43%; top: 31%; }
+.section-map .icon-map-marker.marker-3 { left: 84%; top: 68%; }
+.section-map .icon-map-marker.marker-4 { left: 45%; top: 31%; }
+.section-map .icon-map-marker.marker-5 { left: 40%; top: 31%; }
+.section-map .icon-map-marker.marker-6 { left: 84.5%; top: 68.5%; }
 
 .section-map.for-mobile .icon-map-marker:after { display: none; }
-.section-map.for-mobile .icon-map-marker.marker-1 { left: 36%; top: 19%; }
+.section-map.for-mobile .icon-map-marker.marker-1 { left: 35%; top: 19%; }
 .section-map.for-mobile .icon-map-marker.marker-2 { left: 39%; top: 21%; }
-.section-map.for-mobile .icon-map-marker.marker-3 { left: 81%; top: 58%; }
+.section-map.for-mobile .icon-map-marker.marker-3 { left: 80%; top: 60%; }
+.section-map.for-mobile .icon-map-marker.marker-4 { left: 38%; top: 21.5%; }
+.section-map.for-mobile .icon-map-marker.marker-5 { left: 36.5%; top: 19.5%; }
+.section-map.for-mobile .icon-map-marker.marker-6 { left: 82%; top: 62%; }
 
 .section-map .card-marker-details { transform: translate(0, -50%); top: 50%; z-index: 2; }
 .section-map .card-marker-details { position: absolute; max-width: 320px; left: 0; }
@@ -8348,9 +8354,10 @@ footer .copyright-text { margin-bottom: 0; }
 
 .section-map.for-mobile .card-marker-details { position: static; transform: translate(0, 0); margin: 0 auto; }
 .section-map .carousel-indicators { position: static; margin: 0; }
-.section-map .carousel-indicators li { width: 32px; height: 32px; margin: 0; text-indent: inherit; }
+.section-map .carousel-indicators li { width: 24px; height: 24px; margin: 0; text-indent: inherit; }
 .section-map .carousel-indicators li { background-color: transparent; border: 0; opacity: 1; }
-.section-map .carousel-indicators .active svg { fill: #015256; stroke: green; }
+.section-map .carousel-indicators .active { z-index: 10; }
+.section-map .carousel-indicators .active svg { fill: red; stroke: green; opacity: 1; }
 
 /* Forms and Buttons Control */
 .main-btn.btn-filled { background-color: #015256; border-color: #015256; }
