@@ -8206,7 +8206,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'OSTD'; }
 /* Breadcrumb Area */
 .breadcrumb-area { padding-top: 140px; }
 .breadcrumb-area .breadcrumb-text { padding: 75px 0; }
-.breadcrumb-area .breadcrumb-text span { padding-bottom: 15px; }
+.breadcrumb-area .breadcrumb-text span { padding-bottom: 10px; }
 
 h2 { font-size: 48px !important; line-height: 56px !important; margin: 0 0 30px; }
 h3 { font-size: 40px; line-height: 48px; margin: 0 0 30px; }
@@ -8231,7 +8231,7 @@ header.sticky-header.sticky-active .nav-container .menu-items ul li a { line-hei
 header.sticky-header.sticky-active .nav-container .menu-items ul li a:after { background-color: #000000; }
 header .navbar-toggler { margin-bottom: 12px; }
 
-header .nav-container.breakpoint-on .nav-menu { background-color: #545861; width: 320px; left: -320px; padding: 20px 15px; }
+header .nav-container.breakpoint-on .nav-menu { background-color: #015256; width: 320px; left: -320px; padding: 20px 15px; }
 header .nav-container.breakpoint-on .nav-menu { display: flex; align-items: center; flex-direction: column; }
 header .nav-container.breakpoint-on .nav-menu.menu-on { overflow: hidden; }
 header .nav-container.breakpoint-on .nav-menu .mobile-logo { margin-top: auto; }
@@ -8304,7 +8304,7 @@ footer .copyright-text { margin-bottom: 0; }
 
 .section-map .container { position: relative; z-index: 10; max-width: 1080px !important; }
 .section-map .card { border: 0; border-radius: 0; }
-.section-map .card-body { padding: 40px; background-color: #015256; }
+.section-map .card-body { padding: 40px; background-color: #015256; min-height: 440px; }
 .section-map .card-body h2,
 .section-map .card-body p { color: #FFFFFF; line-height: 1.8em; }
 
@@ -8367,8 +8367,11 @@ footer .copyright-text { margin-bottom: 0; }
 .nice-select.form-control { padding-left: 80px; color: #777777; font-family: "Roboto", sans-serif; }
 .nice-select.form-control::before { left: 40px; }
 
-.banner-area .main-btn.btn-border { border-color: #FFFFFF !important; }
-.banner-area .main-btn.btn-border:hover { background-color: #222222; border-color: #222222 !important; }
+/* Slider */
+.slider:before { position: absolute; height: 100%; width: 100%; background-color: #000000; content: ""; opacity: 0.5; }
+.slider .main-btn { margin: 10px; }
+.slider .main-btn.btn-border { border-color: #FFFFFF !important; color: #FFFFFF; }
+.slider .main-btn.btn-border:hover { background-color: #222222; border-color: #222222 !important; }
 
 /*Card: Career */
 .card-career { border: 0; border-radius: 0; margin-bottom: 30px; padding: 10px; background-color: transparent; position: relative; }
@@ -8497,8 +8500,13 @@ ul.list-check.enlarge li::before { color: #015256; font-size: 32px; }
 .section-publications .button-group button { margin: 0 5px 15px; transition: ease 0.3s all; }
 .section-publications .button-group button.is-checked { background-color: #222222; color: #FFFFFF; }
 
-.input-dropdown .nice-select { height: 70px; background-color: #f8f8f8; font-size: 16px; padding: 0 40px; padding-left: 80px; }
-.input-dropdown .nice-select::before { left: 40px; }
+.input-dropdown .nice-select { height: 70px; background-color: #f8f8f8; font-size: 16px; padding: 0 40px; padding-left: 50px; }
+.input-dropdown .nice-select::before { left: 25px; }
+.input-group .icon { left: 25px; }
+.input-group input,
+.input-group select,
+.input-group textarea,
+input-group select { padding-left: 50px; padding-right: 20px; }
 
 /* Keyframes */
 @keyframes zoomBg {

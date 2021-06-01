@@ -11,6 +11,7 @@
 	
 	header.header-absolute { top: 0; }
 	header .nav-container .navbar-toggler { margin-right: 15px; }
+	header .nav-container.breakpoint-on .nav-menu { width: 100%; left: -100%; }
 	
 	.carousel.fade .carousel-item .banner-logo { max-width: 320px; }
 	
@@ -47,6 +48,13 @@
 	
 	.col-area { flex: 0 0 33.333333%; max-width: 33.333333%; }
 	.col-number { flex: 0 0 66.666667%; max-width: 66.666667%; }
+	
+	.intro-img-1,
+	.intro-img-2,
+	.intro-img-3,
+	.intro-img-4 { margin: 0 0 20px; }
+	
+	.slider .main-btn { display: block; }
 }
 
 /* 480  */
@@ -55,6 +63,7 @@
 
 /* 560  */
 @media (min-width: 560px) {
+	header .nav-container.breakpoint-on .nav-menu { width: 400px; left: -400px; }
 }
 
 /* 768 */
@@ -102,6 +111,13 @@
 	.section-gallery { padding-top: 0; }
 	
 	.card-career .card-title { display: flex; }
+	
+	.intro-img-1 { margin: 0 0 20px; }
+	.intro-img-2 { margin: 20px 0 0; }
+	.intro-img-3 { margin: 0 0 20px; }
+	.intro-img-4 { margin: 20px 0 0; }
+	
+	.slider .main-btn { display: inline-block; }
 }
 
 /* 960 */
