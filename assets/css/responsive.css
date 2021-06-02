@@ -18,7 +18,7 @@
 	.pt-115 { padding-top: 55px; }
 	.pb-115 { padding-bottom: 55px; }
 	
-	.about-section { margin-bottom: 100px; }
+	.about-section { margin-bottom: 0 }
 	.about-section .row { flex-direction: column-reverse; }
 	.about-section .about-text-box { padding: 30px; }
 	
@@ -55,6 +55,7 @@
 	.intro-img-4 { margin: 0 0 20px; }
 	
 	.slider .main-btn { display: block; }
+	.slider .banner-logo { max-width: 320px; }
 }
 
 /* 480  */
@@ -118,6 +119,7 @@
 	.intro-img-4 { margin: 20px 0 0; }
 	
 	.slider .main-btn { display: inline-block; }
+	.slider .banner-logo { max-width: 400px; }
 }
 
 /* 960 */
