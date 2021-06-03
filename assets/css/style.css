@@ -8508,6 +8508,10 @@ ul.list-check.enlarge li::before { color: #015256; font-size: 32px; }
 .input-group textarea,
 input-group select { padding-left: 50px; padding-right: 20px; }
 
+/* Slider */
+.slider .container,
+.slider .row { height: 100vh; }
+
 /* Keyframes */
 @keyframes zoomBg {
 	0%    { background-size: 125%; }
