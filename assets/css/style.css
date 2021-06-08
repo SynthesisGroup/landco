@@ -8217,7 +8217,7 @@ p  { font-size: 16px; line-height: 24px; margin: 0 0 20px; }
 /* Header */
 header { padding: 10px 0; }
 header .nav-container .nav-menu { margin-bottom: 10px; }
-header .nav-container .site-logo img { max-width: 200px; }
+header .nav-container .site-logo img { max-width: 160px; }
 header .nav-container .menu-items ul li { padding: 0 10px; }
 header .nav-container .menu-items ul li li { padding: 0; }
 header .nav-container .menu-items ul li a { position: relative; line-height: normal; padding: 10px 0; }
