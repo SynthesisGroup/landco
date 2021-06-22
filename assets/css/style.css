@@ -8512,6 +8512,8 @@ input-group select { padding-left: 50px; padding-right: 20px; }
 .slider .container,
 .slider .row { height: 100vh; }
 
+.table .thead-dark th { background-color: #015256; } 
+
 /* Keyframes */
 @keyframes zoomBg {
 	0%    { background-size: 125%; }
