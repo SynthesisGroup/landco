@@ -93,7 +93,7 @@
         <div class="container">
             <div class="breadcrumb-text">
                 <span class="wow fadeInLeft">Latest Updates</span>
-                <h2 class="page-title wow fadeInLeft" data-wow-delay="0.2s">Publications</h2>
+                <h2 class="page-title wow fadeInLeft" data-wow-delay="0.2s">Latest News</h2>
 
 				<!-- .breadcrumb-nav -->
                 <ul class="breadcrumb-nav wow fadeInRight">
@@ -112,7 +112,7 @@
 				<div class="col-md-12 mb-5">
 					<h3 class="page-title wow fadeInUp text-center">News about landco</h3>
 					
-					<div class="button-group filter-button-group wow fadeInUp">
+					<div class="button-group filter-button-group wow fadeInUp hidden">
 						<button data-filter="*" class="is-checked">All</button>
 						<button data-filter=".grid-blog">Blog</button>
 						<button data-filter=".grid-news">News</button>
@@ -121,6 +121,10 @@
 					</div>
 				</div>
 			</div>
+			<style>
+				.grid-item { display: none; }
+				.grid-news { display: block; }
+			</style>
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<div class="grid">
