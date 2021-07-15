@@ -1,38 +1,3 @@
-/*-----------------------------------------------------------------------------------
-    Template Name: Hotel Miranda Hoetel Resort Booking HTML Template
-    Template URI: https://webtend.biz/onitir
-    Author: WebTend
-    Author URI: https://www.webtend.com
-    Version: 1.0
-
-	Note: This is Main js File For custom and jQuery plugins activation Code..
------------------------------------------------------------------------------------
-
-/*---------------------------
-	JS INDEX
-	===================
-	01. Main Menu
-	02. Banner Slider
-	03. ROOM Slider(Big)
-	04. Testimonial Slider
-	05. Latest Post Slider
-	06. Feature Room Slider
-	07. CounterUp
-	08. Instagram Feed Slider
-	09. Food Menu SLider
-	10. Gallery Sliders & Popup
-	11. Room Slider Two
-	12. Banner Image Slider
-	13. offCanvas Active
-	14. init extra plugin
-	15. Active Gallery And Video Popup
-	16. Search Form
-	17. Prelader
-	18. Back to top
-	19. Sticky header
-
------------------------------*/
-
 var mirandaDoc;
 
 (function ($) {
@@ -616,36 +581,36 @@ var mirandaDoc;
 		//===== 14. init extra plugin
 		extraPlugin() {
 			// init nice selects
-			$('select').niceSelect();
+			// $('select').niceSelect();
 
 			// init datepicker
-			$('#arrival-date, #departure-date').datepicker({
-				format: 'd-m-yyyy',
-				autoclose: true,
-			});
+			// $('#arrival-date, #departure-date').datepicker({
+			// 	format: 'd-m-yyyy',
+			// 	autoclose: true,
+			// });
 
 			// init wow js
-			new WOW().init();
+			// new WOW().init();
 
 			// init isotope on features
-			$('.fetaure-masonary').isotope();
+			// $('.fetaure-masonary').isotope();
 		},
 
 		//===== 15. Active Gallery And Video Popup
 		popUpExtra() {
 			// Init magnificPopup on Popup Video
-			$('.popup-video').magnificPopup({
-				type: 'iframe',
-			});
+			// $('.popup-video').magnificPopup({
+			// 	type: 'iframe',
+			// });
 
 			// Init magnificPopup on Gallery
-			$('.gallery-loop .popup-image').magnificPopup({
-				type: 'image',
-				gallery: {
-					enabled: true,
-				},
-				mainClass: 'mfp-fade',
-			});
+			// $('.gallery-loop .popup-image').magnificPopup({
+			// 	type: 'image',
+			// 	gallery: {
+			// 		enabled: true,
+			// 	},
+			// 	mainClass: 'mfp-fade',
+			// });
 		},
 
 		//===== 16. Search Form
@@ -686,23 +651,23 @@ var mirandaDoc;
 	});
 
 	// Window Load
-	$(window).on('load', function () {
-		//===== 17. Preloader
-		$('.preloader').fadeOut('slow', function () {
-			$(this).remove();
-		});
 
-		//===== 18. Back to top
-		$('#backToTop').on('click', function (e) {
-			e.preventDefault();
-			$('html, body').animate(
-				{
-					scrollTop: '0',
-				},
-				1200
-			);
-		});
+	//===== 17. Preloader
+	$('.preloader').fadeOut('fast', function () {
+		$(this).remove();
 	});
+
+	//===== 18. Back to top
+	$('#backToTop').on('click', function (e) {
+		e.preventDefault();
+		$('html, body').animate(
+			{
+				scrollTop: '0',
+			},
+			1200
+		);
+	});
+
 
 	// Window Scroll
 	$(window).on('scroll', function () {
