@@ -769,6 +769,7 @@
     <!-- /footer -->
 
     <!-- jquery js -->
+	
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -777,11 +778,20 @@
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script>
-		// imageLoad
-		$('#container').imagesLoaded( function() {
+		// imageLoad		
+		$('.grid').imagesLoaded()
+			.always( function( instance ) {
+			console.log('all images loaded');
+		})
 			.done( function( instance ) {
-				console.log('all images successfully loaded');
-			})
+		console.log('all images successfully loaded');
+		})
+			.fail( function() {
+			console.log('all images loaded, at least one is broken');
+		})
+			.progress( function( instance, image ) {
+		var result = image.isLoaded ? 'loaded' : 'broken';
+			console.log( 'image is ' + result + ' for ' + image.img.src );
 		});
 		
 		// init Isotope				
