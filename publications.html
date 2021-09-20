@@ -104,10 +104,14 @@
 	<!-- .text-block -->
 	<section class="section-publications pt-115 pb-115">
 		<div class="container" data-js="publications">
+			<div class="row justify-content-center">
+				<div class="col-md-8 mb-5">
+					<h3 class="page-title wow fadeInUp text-center">News about Landco Pacific Corporation</h3>
+					<p class=" text-center">Read more raving news and articles about Landco Pacific Corporation’s<br />luxury beach developments here.</p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-12 mb-5">
-					<h3 class="page-title wow fadeInUp text-center">News about landco</h3>
-					
 					<div class="button-group filter-button-group wow fadeInUp">
 						<button data-filter="*" class="is-checked">All</button>
 						<button data-filter=".grid-blog">Blog</button>
@@ -120,6 +124,54 @@
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<div class="grid">
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://inqm.news/nfwm" target="_blank" class="card-img-top">
+									<img src="img/publications/news/your-dream-beachside-lifestyle-realized.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://inqm.news/nfwm" target="_blank">Your dream beachside lifestyle realized</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://www.manilatimes.net/2021/09/03/public-square/landco-aims-for-leed-certification/1813386" target="_blank" class="card-img-top">
+									<img src="img/publications/news/landco-aims-for-leed-certification.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://www.manilatimes.net/2021/09/03/public-square/landco-aims-for-leed-certification/1813386" target="_blank">Landco aims for LEED certification</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://mb.com.ph/2021/09/11/heres-why-you-should-consider-owning-a-beach-home-in-batangas" target="_blank" class="card-img-top">
+									<img src="img/publications/news/heres-why-you-should-consider-owning-a-beach-home-in-batangas.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://mb.com.ph/2021/09/11/heres-why-you-should-consider-owning-a-beach-home-in-batangas" target="_blank">Here’s why you should consider owning a beach home in Batangas</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://mb.com.ph/2021/08/13/the-allure-of-a-beachtown-address/" target="_blank" class="card-img-top">
+									<img src="img/publications/news/the-allure-of-a-beachtown-address.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://mb.com.ph/2021/08/13/the-allure-of-a-beachtown-address/" target="_blank">The allure of a beachtown address</a></h5>
+								</div>
+							</div>
+						</div>
+						
 						<!-- -->
 						<div class="grid-item grid-news wow fadeInUp">
 							<div class="card">
@@ -724,12 +776,13 @@
     <script src="js/main.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script>
-		// init Isotope
+		// init Isotope				
 		var $grid = $('.grid').isotope({
 			// options
 			itemSelector: '.grid-item',
 			layoutMode: 'fitRows'
-		});
+		});	
+		
 		// filter items on button click
 		$('.filter-button-group').on( 'click', 'button', function() {
 			var filterValue = $(this).attr('data-filter');
