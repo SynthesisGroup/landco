@@ -774,8 +774,16 @@
     <script src="js/popper.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script>
+		// imageLoad
+		$('#container').imagesLoaded( function() {
+			.done( function( instance ) {
+				console.log('all images successfully loaded');
+			})
+		});
+		
 		// init Isotope				
 		var $grid = $('.grid').isotope({
 			// options
