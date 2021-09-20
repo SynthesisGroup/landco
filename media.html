@@ -126,6 +126,54 @@
 				<div class="col-lg-12">
 					<div class="grid">
 						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://inqm.news/nfwm" target="_blank" class="card-img-top">
+									<img src="img/publications/news/your-dream-beachside-lifestyle-realized.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://inqm.news/nfwm" target="_blank">Your dream beachside lifestyle realized</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://www.manilatimes.net/2021/09/03/public-square/landco-aims-for-leed-certification/1813386" target="_blank" class="card-img-top">
+									<img src="img/publications/news/landco-aims-for-leed-certification.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://www.manilatimes.net/2021/09/03/public-square/landco-aims-for-leed-certification/1813386" target="_blank">Landco aims for LEED certification</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://mb.com.ph/2021/09/11/heres-why-you-should-consider-owning-a-beach-home-in-batangas" target="_blank" class="card-img-top">
+									<img src="img/publications/news/heres-why-you-should-consider-owning-a-beach-home-in-batangas.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://mb.com.ph/2021/09/11/heres-why-you-should-consider-owning-a-beach-home-in-batangas" target="_blank">Here’s why you should consider owning a beach home in Batangas</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="grid-item grid-news wow fadeInUp">
+							<div class="card">
+								<a href="https://mb.com.ph/2021/08/13/the-allure-of-a-beachtown-address/" target="_blank" class="card-img-top">
+									<img src="img/publications/news/the-allure-of-a-beachtown-address.jpg" alt="Image">
+								</a>
+								<div class="card-body">
+									<h5 class="mb-0"><a href="https://mb.com.ph/2021/08/13/the-allure-of-a-beachtown-address/" target="_blank">The allure of a beachtown address</a></h5>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
 						<div class="grid-item grid-videos wow fadeInUp">
 							<div class="card">
 								<a href="https://www.youtube.com/watch?v=fI8PFsjTSC4" target="_blank" class="card-img-top">
@@ -494,12 +542,29 @@
     <!-- /footer -->
 
     <!-- jquery js -->
-     <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script>
+		// imageLoad		
+		$('.grid').imagesLoaded()
+			.always( function( instance ) {
+			console.log('all images loaded');
+		})
+			.done( function( instance ) {
+		console.log('all images successfully loaded');
+		})
+			.fail( function() {
+			console.log('all images loaded, at least one is broken');
+		})
+			.progress( function( instance, image ) {
+		var result = image.isLoaded ? 'loaded' : 'broken';
+			console.log( 'image is ' + result + ' for ' + image.img.src );
+		});
+		
 		// init Isotope
 		var $grid = $('.grid').isotope({
 			// options
