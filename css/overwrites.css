@@ -1,5 +1,6 @@
 /* */
 .mb-100 { margin-bottom: 100px; }
+small { line-height: 20px; display: block; margin-bottom: 30px; }
 
 .section-connect { /*margin-top: -100px;*/ position: relative; z-index: 1; }
 .section-connect .inner-section { box-shadow: 0 14px 24px 0 rgb(190 173 142 / 10%); }
