@@ -19,6 +19,7 @@
 	header.header-absolute { top: 0; }
 	header .nav-container .navbar-toggler { margin-right: 15px; }
 	header .nav-container.breakpoint-on .nav-menu { width: 100%; left: -100%; }
+	header .nav-container .site-logo img { max-width: 160px; }
 	
 	.carousel.fade .carousel-item .banner-logo { max-width: 320px; }
 	
@@ -63,6 +64,9 @@
 	
 	.slider .main-btn { display: block; }
 	.slider .banner-logo { max-width: 320px; }
+	
+	.floating-awards ul li { display: inline-block; margin-right: 10px; }
+	.floating-awards ul li a { max-width: 100px; }
 }
 
 /* 480  */
@@ -87,6 +91,7 @@
 	
 	header.header-absolute { top: 35px; }
 	header .nav-container .navbar-toggler { margin-right: 0; }
+	header .nav-container .site-logo img { max-width: 200px; }
 	
 	.carousel.fade .carousel-item .banner-logo { max-width: 560px; }
 	
@@ -127,6 +132,9 @@
 	
 	.slider .main-btn { display: inline-block; }
 	.slider .banner-logo { max-width: 400px; }
+	
+	.floating-awards ul li { display: inline-block; margin-right: 20px; }
+	.floating-awards ul li a { max-width: 140px; }
 }
 
 /* 960 */

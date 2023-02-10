@@ -41,7 +41,7 @@ contactForm.addEventListener('submit', (e) => {
             Password : "gqpptqkatjgljmxb",
             Port: 587,
             Tls: true,
-            To : "information.cloud365@gmail.com, info@landco.ph",
+            To : "information.cloud365@gmail.com, info@landco.ph, yustorres@gmail.com",
             From : email.value,
             Subject : subject.value,
             Body : message.value,
